@@ -14,6 +14,7 @@
     "test:prod:watch": "MODE=prod wtr --watch",
     "serve": "npm run serve:demo",
     "serve:demo": "wds --node-resolve --app-index demo/index.html --open",
+    "format": "prettier \"**/*.{cjs,html,js,json,md,ts,css,scss}\" --write",
     "release": "npx release-it",
     "prepare": "husky"
   },
