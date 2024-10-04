@@ -6,6 +6,7 @@
   "type": "module",
   "module": "src/index.js",
   "scripts": {
+    "init": "npm i -g jsdoc",
     "playwright-init": "npx playwright install",
     "lint": "npm run lint:eslint",
     "lint:eslint": "npx eslint .",
