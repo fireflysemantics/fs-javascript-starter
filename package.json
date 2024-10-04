@@ -6,6 +6,7 @@
   "type": "module",
   "module": "src/index.js",
   "scripts": {
+    "playwright-init": "npx playwright install",
     "test": "npm run test:dev && npm run test:prod",
     "test:dev": "wtr",
     "test:watch": "wtr --watch",
