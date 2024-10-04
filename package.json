@@ -8,7 +8,7 @@
     "release": "npx release-it",
     "prepare": "husky"
   },
-  "bugs": "https://github.com/fireflysemantics/fs-github-flow-docs-starter/issues",
+  "bugs": "https://github.com/fireflysemantics/fs-javascript-starter/issues",
   "homepage": "https://github.com/fireflysemantics/fs-github-flow-docs-starter/",
   "repository": {
     "type": "git",
