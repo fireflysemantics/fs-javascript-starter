@@ -9,7 +9,7 @@
     "prepare": "husky"
   },
   "bugs": "https://github.com/fireflysemantics/fs-javascript-starter/issues",
-  "homepage": "https://github.com/fireflysemantics/fs-github-flow-docs-starter/",
+  "homepage": "https://github.com/fireflysemantics/fs-javascript-starter/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fireflysemantics/fs-javascript-starter.git"
