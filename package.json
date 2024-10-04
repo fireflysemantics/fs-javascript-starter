@@ -15,12 +15,20 @@
     "url": "git+https://github.com/fireflysemantics/fs-github-flow-docs-starter.git"
   },
   "keywords": [
+    "Javascript",
     "starter-project",
     "github",
     "flow",
     "pull-requests",
     "README",
-    "LICENSE"
+    "LICENSE",
+    "eslint",
+    "prettier",
+    "lint-staged",
+    "husky",
+    "hooks",
+    "git",
+    "testing"
   ],
   "author": "Firefly Semantics Corporation",
   "license": "MIT",
