@@ -24,6 +24,8 @@
     "deploy:doc": "git subtree push --prefix doc origin gh-pages",
     "checksize": "npm run rollup && cat ./src/index.bundled.js | gzip -9 | wc -c ; rm ./src/index.bundled.js",
     "rollup": "rollup -c",
+    "npm:pub": "npm publish --access=public",
+    "npm:unpub": "npm unpublish --force",
     "format": "prettier \"**/*.{cjs,html,js,json,md,ts,css,scss}\" --write",
     "release": "npx release-it",
     "prepare": "husky"
