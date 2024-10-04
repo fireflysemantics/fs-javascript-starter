@@ -4,6 +4,7 @@
   "description": "A javascript starter project by Firefly Semantics Corporation",
   "main": "src/index.bundle.js",
   "type": "module",
+  "module": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npx release-it",
