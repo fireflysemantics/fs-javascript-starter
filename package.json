@@ -1,6 +1,6 @@
 {
   "name": "fs-javascript-starter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A javascript starter project by Firefly Semantics Corporation",
   "main": "src/index.bundle.js",
   "type": "module",
