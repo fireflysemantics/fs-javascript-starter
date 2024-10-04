@@ -17,6 +17,10 @@
     "test:prod:watch": "MODE=prod wtr --watch",
     "serve": "npm run serve:demo",
     "serve:demo": "wds --node-resolve --app-index demo/index.html --open",
+    "doc": "npm run clean:doc && jsdoc -r ./src/ -d doc",
+    "clean:doc": "rimraf doc",
+    "serve:doc": "npm run doc && http-server -o doc",
+    "deploy:doc": "git subtree push --prefix doc origin gh-pages",
     "format": "prettier \"**/*.{cjs,html,js,json,md,ts,css,scss}\" --write",
     "release": "npx release-it",
     "prepare": "husky"
