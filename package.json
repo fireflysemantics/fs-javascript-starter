@@ -61,6 +61,10 @@
     "prettier": "^3.3.3",
     "release-it": "^17.4.0"
   },
+  "lint-staged": {
+    "*.js": "npm run lint:eslint",
+    "*.{js,ts,css,md}": "prettier --write"
+  },
   "release-it": {
     "git": {
       "commitMessage": "chore: release ${version}"
