@@ -7,6 +7,8 @@
   "module": "src/index.js",
   "scripts": {
     "playwright-init": "npx playwright install",
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "npx eslint .",
     "test": "npm run test:dev && npm run test:prod",
     "test:dev": "wtr",
     "test:watch": "wtr --watch",
