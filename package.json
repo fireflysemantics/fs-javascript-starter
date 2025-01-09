@@ -12,6 +12,8 @@
     "clean:doc": "rimraf doc",
     "serve:doc": "npm run doc && http-server -o doc",
     "deploy:doc": "git subtree push --prefix doc origin gh-pages",
+    "npm:pub": "npm run rollup && npm publish --access=public",
+    "npm:unpub": "npm unpublish --force",
     "test": "npm run test:dev && npm run test:prod",
     "test:dev": "wtr",
     "test:watch": "wtr --watch",
