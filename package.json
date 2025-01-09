@@ -23,6 +23,7 @@
     "serve:demo": "wds --node-resolve --app-index demo/index.html --open --watch",
     "playwright-init": "npx playwright install",
     "format": "prettier \"**/*.{cjs,html,js,json,md,ts,css,scss}\" --write",
+    "rollup": "rollup -c",
     "release": "npx release-it",
     "prepare": "husky"
   },
