@@ -20,6 +20,10 @@
     "release": "npx release-it",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*.js": "npm run lint:eslint",
+    "*.{js,ts,css,md}": "prettier --write"
+  },
   "bugs": "https://github.com/fireflysemantics/fs-javascript-starter/issues",
   "homepage": "https://github.com/fireflysemantics/fs-javascript-starter/",
   "repository": {
