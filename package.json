@@ -13,6 +13,7 @@
     "test:prod:watch": "MODE=prod wtr --watch",
     "serve": "npm run serve:demo",
     "serve:demo": "wds --node-resolve --app-index demo/index.html --open --watch",
+    "playwright-init": "npx playwright install",
     "release": "npx release-it",
     "prepare": "husky"
   },
