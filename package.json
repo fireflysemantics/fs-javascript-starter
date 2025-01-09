@@ -7,6 +7,11 @@
   "module": "src/index.js",
   "scripts": {
     "init": "npm i -g jsdoc",
+    "doc": "npm run clean:doc && jsdoc -r ./src/ -d doc",
+    "clean": "npm run clean:doc",
+    "clean:doc": "rimraf doc",
+    "serve:doc": "npm run doc && http-server -o doc",
+    "deploy:doc": "git subtree push --prefix doc origin gh-pages",
     "test": "npm run test:dev && npm run test:prod",
     "test:dev": "wtr",
     "test:watch": "wtr --watch",
