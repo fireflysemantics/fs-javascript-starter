@@ -24,6 +24,7 @@
     "playwright-init": "npx playwright install",
     "format": "prettier \"**/*.{cjs,html,js,json,md,ts,css,scss}\" --write",
     "rollup": "rollup -c",
+    "checksize": "npm run rollup && cat ./src/index.bundled.js | gzip -9 | wc -c ; rm ./src/index.bundled.js",
     "release": "npx release-it",
     "prepare": "husky"
   },
